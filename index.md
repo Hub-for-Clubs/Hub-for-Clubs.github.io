@@ -141,6 +141,6 @@ The following sections document the development history of BowFolios.
 
 ### Milestone 2: Data model development 
 
-## Milestone 3: Final touches
+### Milestone 3: Final touches
 
 ## Walkthrough videos
