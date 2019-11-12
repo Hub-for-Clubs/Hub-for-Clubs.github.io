@@ -26,6 +26,13 @@ This section provides a walkthrough of the Club Hub user interface and its capab
 
 The landing page is presented to users when they visit the top-level URL to the site. 
 
+### Navbar
+
+Contains links to the following pages:
+* Home
+* Club Explorer
+* Sign up/Sign in
+
 ### Index pages (Projects, Profiles, Interests)
 
 Club Hub provides three public pages that present the contents of the database organized in various ways. 
@@ -45,14 +52,39 @@ Alternatively, you can select "Sign up" to go to the following page and register
 ### Home page
   
 After logging in, you are taken to the home page, which presents a form where you can complete and/or update your personal profile:
+* List of clubs the member is a part of
+* Club announcements
+* Personal information
+* Interests
+* Major
+* A Bio
+* Delete Account
 
-### Add Project page
+### Club Explorer page
 
-Once you are logged in, you can define new projects with the Add Project page:
+Given a list of all the clubs in the RIO database, by default in Alphabetical order. Options for filtering will exist, by type, subject, club specificity of major, and name. Clubs can either be joined by the user, or required to fill an application.
 
-### Filter page
+### Club page(s)
 
-The Filter page provides the ability to query the database and display the results in the page. In this case, the query displays all of the Clubs that match one or more of the specified Interest(s).
+Is essentially the same as a home page, but with some changes:
+* Has a join button
+* Contact info for the Admin
+* Announcements
+
+### Club Admin page(s)
+
+Has the ability to manipulate the following:
+* Control club membership
+* Change page info
+* Change club tags
+* Post announcements
+* Share admin privileges
+* View Club membership 
+* R E M O V E C L U B button (in case of 86)
+
+### Site Announcement Board
+
+Admins can post freely to the site announcement board, but club owners may post only once per week, though they may edit and delete them. Posts from club owners will appear here and on their pages.
 
 ## Developer Guide
 
