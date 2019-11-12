@@ -91,17 +91,13 @@ Design choice #2:  Provide a "join" collection where each document contains two 
 
 Bowfolios implements Design choice #2 to provide pair-wise relations between all three of its primary collections:
 
-![](images/data-model.png)
-
 The fields in boldface (Email for Profiles, and Name for Projects and Interests) indicate that those fields must have unique values so that they can be used as a primary key for that collection. This constraint is enforced in the schema definition associated with that collection. 
-
 
 ## Initialization
 
 The [config](https://github.com/bowfolios/bowfolios/tree/master/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/bowfolios/bowfolios/blob/master/config/settings.development.json).
 
 This file contains default definitions for Profiles, Projects, and Interests and the relationships between them. Consult the walkthrough video for more details. 
-
 
 ## Quality Assurance
 
@@ -148,7 +144,3 @@ The following sections document the development history of BowFolios.
 ## Milestone 3: Final touches
 
 ## Walkthrough videos
-
-
-
-
