@@ -9,6 +9,8 @@
 * [Example enhancements](#example-enhancements)
 * [Acknowledgements](#acknowledgements)
 
+[Hub for Clubs](https://hub-for-clubs.meteorapp.com/)
+
 ## Overview 
 
 Club Hub is a web application that provides a centralized directory for UH Manoa student clubs. UH Manoa students can login to browse a well organized directory of all current student clubs, with brief descriptions, meeting times and locations, URLs to their websites (if any), contact information for officers, and a few select photos. This project utilizes the following technologies:
