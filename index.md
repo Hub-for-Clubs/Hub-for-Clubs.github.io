@@ -9,11 +9,10 @@
 * [Example enhancements](#example-enhancements)
 * [Acknowledgements](#acknowledgements)
 
-[Hub for Clubs](https://hub-for-clubs.meteorapp.com/)
 
 ## Overview 
 
-Club Hub is a web application that provides a centralized directory for UH Manoa student clubs. UH Manoa students can login to browse a well organized directory of all current student clubs, with brief descriptions, meeting times and locations, URLs to their websites (if any), contact information for officers, and a few select photos. This project utilizes the following technologies:
+[Hub for Clubs](https://hub-for-clubs.meteorapp.com/) is a web application that provides a centralized directory for UH Manoa student clubs. UH Manoa students can login to browse a well organized directory of all current student clubs, with brief descriptions, meeting times and locations, URLs to their websites (if any), contact information for officers, and a few select photos. This project utilizes the following technologies:
 
 * [Meteor](https://www.meteor.com/) for Javascript-based implementation of client and server code. 
 * [React](https://reactjs.org/) for component-based UI implementation and routing.
@@ -154,7 +153,11 @@ The following sections document the development history of Hub for Clubs.
 
 ### Milestone 1: Mockup development
 
+[M1](https://github.com/Hub-for-Clubs/Hub-for-Clubs/projects/1) 
+
 ### Milestone 2: Data model development 
+
+[M2](https://github.com/Hub-for-Clubs/Hub-for-Clubs/projects/2) 
 
 ### Milestone 3: Final touches
 
