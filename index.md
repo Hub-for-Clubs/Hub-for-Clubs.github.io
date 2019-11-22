@@ -25,6 +25,8 @@ This section provides a walkthrough of the Club Hub user interface and its capab
 
 ### Landing Page
 
+<img src="doc/Landing.png" alt="Landing Page">
+
 The landing page is presented to users when they visit the top-level URL to the site. 
 
 ### Navbar
@@ -46,11 +48,15 @@ Finally, the Interests page shows all the currently defined Interests, and their
 
 ### Sign in and sign up
 
+<img src="doc/SignIn.png" alt="Sign In Page">
+
 Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
  
 Alternatively, you can select "Sign up" to go to the following page and register as a new user:
 
 ### Home page
+
+<img src="doc/user-profile.png" alt="User Profile Page">
   
 After logging in, you are taken to the home page, which presents a form where you can complete and/or update your personal profile:
 * List of clubs the member is a part of
@@ -66,6 +72,8 @@ After logging in, you are taken to the home page, which presents a form where yo
 Given a list of all the clubs in the RIO database, by default in Alphabetical order. Options for filtering will exist, by type, subject, club specificity of major, and name. Clubs can either be joined by the user, or required to fill an application.
 
 ### Club page(s)
+
+<img src="doc/club-profile.png" alt="Club Profile Page">
 
 Is essentially the same as a home page, but with some changes:
 * Has a join button
