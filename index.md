@@ -91,9 +91,23 @@ Has the ability to manipulate the following:
 * View Club membership 
 * R E M O V E C L U B button (in case of 86)
 
-### Site Announcement Board
+## [Announcement Board](https://hub-for-clubs.meteorapp.com/#/announcements)
 
-Admins can post freely to the site announcement board, but club owners may post only once per week, though they may edit and delete them. Posts from club owners will appear here and on their pages.
+<img src="doc/announcements.png" alt="">
+
+This page houses all the announcents made by the club leaders. Sadly when it was deployed to galaxy it was messed up and we do not know how to fix it yet, and instead is a screenshot of what it looks like on our local machines. The page can be visited by clicking on the header.
+
+## [Add Announcement](https://hub-for-clubs.meteorapp.com/#/addannouncement)
+
+<img src="doc/add-announcement.png" alt="">
+
+This page allows designated club leaders to add announcements to the announcements page. Non-Leaders will not be able to access this page. Sadly because the login page is broken on galaxy, here is the next best thing.
+
+## Edit Announcement
+
+<img src="doc/edit-announcement.png" alt="">
+
+This page allows one to edit their announcements. However, currently the only way to access it is through the announcement board page, and it is broken on galaxy. Because of this, here is a screenshot of what it looks like on our machine prior to the CSS and navbar edits.
 
 ## Developer Guide
 
@@ -161,23 +175,6 @@ The following sections document the development history of Hub for Clubs.
 
 ### [Milestone 1: Mockup development](https://github.com/Hub-for-Clubs/Hub-for-Clubs/projects/1) 
 
-## [Announcement Board](https://hub-for-clubs.meteorapp.com/#/announcements)
-
-<img src="doc/announcements.png" alt="">
-
-This page houses all the announcents made by the club leaders. Sadly when it was deployed to galaxy it was messed up and we do not know how to fix it yet, and instead is a screenshot of what it looks like on our local machines. The page can be visited by clicking on the header.
-
-## [Add Announcement](https://hub-for-clubs.meteorapp.com/#/addannouncement)
-
-<img src="doc/add-announcement.png" alt="">
-
-This page allows designated club leaders to add announcements to the announcements page. Non-Leaders will not be able to access this page. Sadly because the login page is broken on galaxy, here is the next best thing.
-
-## Edit Announcement
-
-<img src="doc/edit-announcement.png" alt="">
-
-This page allows one to edit their announcements. However, currently the only way to access it is through the announcement board page, and it is broken on galaxy. Because of this, here is a screenshot of what it looks like on our machine prior to the CSS and navbar edits.
 
 ### Milestone 2: Data model development 
 
