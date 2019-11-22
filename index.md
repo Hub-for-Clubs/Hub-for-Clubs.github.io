@@ -23,6 +23,8 @@
 
 This section provides a walkthrough of the Club Hub user interface and its capabilities. 
 
+!As of 11/21, the pages are currently unlinked from each other.
+
 ### Landing Page
 
 <img src="doc/Landing.png" alt="Landing Page">
