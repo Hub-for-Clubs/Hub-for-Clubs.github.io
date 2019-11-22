@@ -56,7 +56,7 @@ Click on the "Login" button in the upper right corner of the navbar, then select
  
 Alternatively, you can select "Sign up" to go to the following page and register as a new user:
 
-### Home page
+### User page
 
 <img src="doc/user-profile.png" alt="User Profile Page">
   
