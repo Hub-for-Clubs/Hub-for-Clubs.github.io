@@ -55,6 +55,8 @@ Click on the "Login" button in the upper right corner of the navbar, then select
 Alternatively, you can select "Sign up" to go to the following page and register as a new user:
 
 ### Home page
+
+<img src="doc/user-profile.png" alt="User Profile Page">
   
 After logging in, you are taken to the home page, which presents a form where you can complete and/or update your personal profile:
 * List of clubs the member is a part of
@@ -70,6 +72,8 @@ After logging in, you are taken to the home page, which presents a form where yo
 Given a list of all the clubs in the RIO database, by default in Alphabetical order. Options for filtering will exist, by type, subject, club specificity of major, and name. Clubs can either be joined by the user, or required to fill an application.
 
 ### Club page(s)
+
+<img src="doc/club-profile.png" alt="Club Profile Page">
 
 Is essentially the same as a home page, but with some changes:
 * Has a join button
