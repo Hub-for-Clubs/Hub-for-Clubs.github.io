@@ -23,8 +23,6 @@
 
 This section provides a walkthrough of the Club Hub user interface and its capabilities. 
 
-As of 11/21, the pages are currently unlinked from each other.
-
 ### Landing Page
 
 <img src="doc/Screenshot (2).png" alt="Sign In Page">
@@ -149,7 +147,7 @@ Bowfolios is based upon [meteor-application-template-react](https://ics-software
 
 ## Initialization
 
-The [config](https://www.youtube.com/watch?v=dQw4w9WgXcQ) directory is intended to hold settings files. The repository contains one file: [config/settings.development.json](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+The config directory is intended to hold settings files. The repository contains one file: [config/settings.development.json].
 
 This file contains default definitions for Profiles, Projects, and Interests and the relationships between them. Consult the walkthrough video for more details. 
 
