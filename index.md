@@ -184,11 +184,10 @@ The following sections document the development history of Hub for Clubs.
 ### [Milestone 1: Mockup development](https://github.com/Hub-for-Clubs/Hub-for-Clubs/projects/1) 
 
 
-### Milestone 2: Data model development 
+### [Milestone 2: Data model development](https://github.com/Hub-for-Clubs/Hub-for-Clubs/projects/2) 
 
-[M2](https://github.com/Hub-for-Clubs/Hub-for-Clubs/projects/2) 
 
-### Milestone 3: Final touches
+### [Milestone 3: Final touches](https://github.com/Hub-for-Clubs/Hub-for-Clubs/projects/3) 
 
 ## Walkthrough videos
 
