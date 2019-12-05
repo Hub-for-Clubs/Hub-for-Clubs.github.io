@@ -27,7 +27,7 @@ As of 11/21, the pages are currently unlinked from each other.
 
 ### Landing Page
 
-<img src="doc/Landing.png" alt="Landing Page">
+<img src="doc/Screenshot (2).png" alt="Sign In Page">
 
 The landing page is presented to users when they visit the top-level URL to the site. 
 
@@ -50,7 +50,7 @@ Finally, the Interests page shows all the currently defined Interests, and their
 
 ### Sign in and sign up
 
-<img src="doc/Screenshot (2).png" alt="Sign In Page">
+<img src="doc/Screenshot (3).png" alt="Sign In Page">
 
 Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
  
@@ -82,6 +82,12 @@ Is essentially the same as a home page, but with some changes:
 * Contact info for the Admin
 * Announcements
 
+### Club Explorer
+
+<img src="doc/Screenshot (4).png" alt="Club Explorer">
+
+A gallery of available clubs at UH Manoa.
+
 ### Club Admin page(s)
 
 Has the ability to manipulate the following:
@@ -95,7 +101,7 @@ Has the ability to manipulate the following:
 
 ## [Announcement Board](https://hub-for-clubs.meteorapp.com/#/announcements)
 
-<img src="doc/announcements.png" alt="">
+<img src="doc/Screenshot (5).png" alt="Annoucement Board">
 
 This page houses all the announcents made by the club leaders. Sadly when it was deployed to galaxy it was messed up and we do not know how to fix it yet, and instead is a screenshot of what it looks like on our local machines. The page can be visited by clicking on the header.
 
