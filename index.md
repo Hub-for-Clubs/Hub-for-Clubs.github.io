@@ -75,7 +75,7 @@ Given a list of all the clubs in the RIO database, by default in Alphabetical or
 
 ### Club page(s)
 
-<img src="doc/club-profile.png" alt="Club Profile Page">
+<img src="doc/Screenshot (6).png" alt="Club Profile Page">
 
 Is essentially the same as a home page, but with some changes:
 * Has a join button
