@@ -56,7 +56,7 @@ Alternatively, you can select "Sign up" to go to the following page and register
 
 ### User page
 
-<img src="doc/user-profile.png" alt="User Profile Page">
+<img src="doc/Screenshot (7).png" alt="User Page">
   
 After logging in, you are taken to the home page, which presents a form where you can complete and/or update your personal profile:
 * List of clubs the member is a part of
