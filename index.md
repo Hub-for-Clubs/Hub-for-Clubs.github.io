@@ -50,7 +50,7 @@ Finally, the Interests page shows all the currently defined Interests, and their
 
 ### Sign in and sign up
 
-<img src="doc/SignIn.png" alt="Sign In Page">
+<img src="doc/Screenshot (2).png" alt="Sign In Page">
 
 Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
  
