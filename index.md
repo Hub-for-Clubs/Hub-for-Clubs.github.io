@@ -106,9 +106,9 @@ Suggested Club takes you to the profile of a random club at UH Manoa that is rel
 
 Admins user accounts are accounts who are leaders of a club. Admins can edit their club’s information and add announcements.
 
-## [Add Announcement](https://hub-for-clubs.meteorapp.com/#/addannouncement)
+## Add Announcement
 
-<img src="doc/final_makeanannouncement.png" alt="">
+<img src="doc/final_makeannouncement.png" alt="">
 
 Admin accounts can add announcements on their club page.
 
