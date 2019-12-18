@@ -72,6 +72,8 @@ Upon joining a club, users can view their joined club’s announcements on their
 
 ### Announcements Board
 
+<img src="doc/final_editannouncement.png" alt="">
+
 If users want to discover more active clubs, they can view all announcements from all UH Manoa clubs on this page.
 
 ### Club Explorer page
@@ -104,6 +106,8 @@ Suggested Club takes you to the profile of a random club at UH Manoa that is rel
 
 ### Admin User Accounts
 
+<img src="doc/final_editclub.png" alt="">
+
 Admins user accounts are accounts who are leaders of a club. Admins can edit their club’s information and add announcements.
 
 ## Add Announcement
@@ -113,6 +117,8 @@ Admins user accounts are accounts who are leaders of a club. Admins can edit the
 Admin accounts can add announcements on their club page.
 
 ## Edit Announcement
+
+<img src="doc/final_editannouncement.png" alt="">
 
 An “edit announcement” option is shown beneath the announcements the admin account has made. Admins can edit their current announcements.
 
