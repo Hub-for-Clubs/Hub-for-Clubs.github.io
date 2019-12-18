@@ -125,8 +125,6 @@ $ meteor npm run start
 
 If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000). 
 
-### Data model
-
 ## Initialization
 
 The config directory is intended to hold settings files. The repository contains one file: [config/settings.development.json].
