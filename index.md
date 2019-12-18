@@ -2,11 +2,8 @@
 
 * [Overview](#overview)
 * [User Guide](#user-guide)
-* [Community Feedback](#community-feedback)
 * [Developer Guide](#developer-guide)
 * [Development History](#development-history)
-* [Walkthrough videos](#walkthrough-videos)
-* [Example enhancements](#example-enhancements)
 * [Acknowledgements](#acknowledgements)
 
 
@@ -27,93 +24,82 @@ This section provides a walkthrough of the Club Hub user interface and its capab
 
 <img src="doc/Screenshot (2).png" alt="Sign In Page">
 
-The landing page is presented to users when they visit the top-level URL to the site. 
+The landing page is presented to users when they visit the top-level URL to the site. A rotating belt of three featured clubs is located at the bottom of the page. These clubs are randomly selected from a RIO list.
 
 ### Navbar
 
-Contains links to the following pages:
-* Home
-* Club Explorer
-* Sign up/Sign in
+Users that are not logged in are presented with a navbar, containing links to the following pages:
+* [Home]
+* [Club Explorer]
+* [Random Club]
+* [Sign up/Sign in]
 
-### Index pages (Projects, Profiles, Interests)
-
-Club Hub provides three public pages that present the contents of the database organized in various ways. 
-
-The Clubs page shows all the current defined Clubs and their associated Projects and Interests:
-
-The Projects page shows all of the currently defined Projects and their associated Profiles and Interests:
-
-Finally, the Interests page shows all the currently defined Interests, and their associated Profiles and Projects:
-
-### Sign in and sign up
+### Sign in
 
 <img src="doc/Screenshot (3).png" alt="Sign In Page">
 
-Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
+Should a user already have an account registered with Club Hubs, he/she can simply click on the "Sign in" button located on the upper right corner of the navbar to access the above page. 
  
-Alternatively, you can select "Sign up" to go to the following page and register as a new user:
+Alternatively, a user can select the "Sign up" button either on the sign in page itself or the navbar to go to the following page and register as a new user.
+
+### Sign up 
+
+Fill the sign up form with a user’s name, email, and password. The user’s inputted name will be his/her username displayed on their member profile.
 
 ### User page
 
 <img src="doc/Screenshot (7).png" alt="User Page">
   
-After logging in, you are taken to the home page, which presents a form where you can complete and/or update your personal profile:
-* List of clubs the member is a part of
-* Club announcements
-* Personal information
-* Interests
-* Major
-* A Bio
-* Delete Account
+After logging in, users are taken to your profile page, which presents a form on the left side where they can complete and/or update their personal information:
+* Profile Image: submit a link on the internet to the image the user wants as their profile image
+* Interests: type in interests or pull interests from the drop down list. 
+* Majors: type in majors or pull majors from the drop down list.
+
+Once a user has interests and/or majors associated with their profile, they can then view the recommended clubs tab in their profile page (located to the right of the page). The recommended clubs tab recommends you clubs based on your inputted interests and majors. 
+
+By clicking on a club, users are brought to the club page where they can join, favorite, and find more information about the club. Joined and favorited clubs will be listed on a user’s profile.
+
+Upon joining a club, users can view their joined club’s announcements on their profile. Otherwise, if they want to see global announcements, they can access the Announcements Board on the navbar.
+
+### Announcements Board
+
+If users want to discover more active clubs, they can view all announcements from all UH Manoa clubs on this page.
 
 ### Club Explorer page
 
-Given a list of all the clubs in the RIO database, by default in Alphabetical order. Options for filtering will exist, by type, subject, club specificity of major, and name. Clubs can either be joined by the user, or required to fill an application.
+The Club Explorer page displays all current clubs at UH Manoa. Users can search for a specific club using the search bar or select a category. Users can select and combine multiple categories. For example, if a user wants to view clubs that have both “art” and “technology” tags at UH Manoa, they can click “art” and “technology” on the menu. This is different from the recommended clubs on the profile page in that the results are amalgamated (i.e. the profile page shows all clubs with “art” or “technology” while the club explorer shows only clubs with both “art” and “technology”).
 
 ### Club page(s)
 
 <img src="doc/Screenshot (6).png" alt="Club Profile Page">
 
-Is essentially the same as a home page, but with some changes:
-* Has a join button
-* Contact info for the Admin
-* Announcements
+The Club Page contains information such as the leader’s name, website (if any), club profile image, and its associated interests. It also contains a join button and a favorite button under the name. After joining and/or favoriting the club, the button automatically transforms to “leave” and “unfavorite” should the user decide that they no longer want to be part of the club.
 
-### Club Explorer
+On the right of the page contains the club’s description (if provided), recent announcements the club has made, and a list of member profiles whose profiles you can also view. Note that you have to be signed in to view club members and access their profiles.
 
-<img src="doc/Screenshot (4).png" alt="Club Explorer">
+### Random Club
 
-A gallery of available clubs at UH Manoa.
+Random Club on the navbar takes you to the profile of a random club at UH Manoa, regardless of your stated interest/smajor.
 
-### Club Admin page(s)
+### Suggested Clubs
 
-Has the ability to manipulate the following:
-* Control club membership
-* Change page info
-* Change club tags
-* Post announcements
-* Share admin privileges
-* View Club membership 
-* R E M O V E C L U B button (in case of 86)
+Suggested Club takes you to the profile of a random club at UH Manoa that is related to your interests/major.
 
-## [Announcement Board](https://hub-for-clubs.meteorapp.com/#/announcements)
+### Admin User Accounts
 
-<img src="doc/Screenshot (5).png" alt="Annoucement Board">
-
-This page houses all the announcents made by the club leaders. Sadly when it was deployed to galaxy it was messed up and we do not know how to fix it yet, and instead is a screenshot of what it looks like on our local machines. The page can be visited by clicking on the header.
+Admins user accounts are accounts who are leaders of a club. Admins can edit their club’s information and add announcements.
 
 ## [Add Announcement](https://hub-for-clubs.meteorapp.com/#/addannouncement)
 
 <img src="doc/add-announcement.png" alt="">
 
-This page allows designated club leaders to add announcements to the announcements page. Non-Leaders will not be able to access this page. Sadly because the login page is broken on galaxy, here is the next best thing.
+Admin accounts can add announcements on their club page.
 
 ## Edit Announcement
 
 <img src="doc/edit-announcement.png" alt="">
 
-This page allows one to edit their announcements. However, currently the only way to access it is through the announcement board page, and it is broken on galaxy. Because of this, here is a screenshot of what it looks like on our machine prior to the CSS and navbar edits.
+An “edit announcement” option is shown beneath the announcements the admin account has made. Admins can edit their current announcements.
 
 ## Developer Guide
 
@@ -187,9 +173,6 @@ The following sections document the development history of Hub for Clubs.
 
 ### [Milestone 3: Final touches](https://github.com/Hub-for-Clubs/Hub-for-Clubs/projects/3) 
 
-## Walkthrough videos
-
 ## Acknowledgements
 
 Thank you to [Phillip Johnson](https://github.com/philipmjohnson) for documentation formatting and [Branden Ogata](https://github.com/bsogata) for grading it.
-
