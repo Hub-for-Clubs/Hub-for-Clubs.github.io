@@ -22,7 +22,9 @@ This section provides a walkthrough of the Club Hub user interface and its capab
 
 ### Landing Page
 
-<img src="doc/Screenshot (2).png" alt="Sign In Page">
+<img src="doc/final_landing.png" alt="Sign In Page">
+
+<img src="doc/final_featured.png" alt="Sign In Page">
 
 The landing page is presented to users when they visit the top-level URL to the site. A rotating belt of three featured clubs is located at the bottom of the page. These clubs are randomly selected from a RIO list.
 
@@ -36,7 +38,7 @@ Users that are not logged in are presented with a navbar, containing links to th
 
 ### Sign in
 
-<img src="doc/Screenshot (3).png" alt="Sign In Page">
+<img src="final_signin.png" alt="Sign In Page">
 
 Should a user already have an account registered with Club Hubs, he/she can simply click on the "Sign in" button located on the upper right corner of the navbar to access the above page. 
  
@@ -44,20 +46,26 @@ Alternatively, a user can select the "Sign up" button either on the sign in page
 
 ### Sign up 
 
+<img src="final_signup.png" alt="Sign In Page">
+
 Fill the sign up form with a user’s name, email, and password. The user’s inputted name will be his/her username displayed on their member profile.
 
 ### User page
 
-<img src="doc/Screenshot (7).png" alt="User Page">
-  
+<img src="final_clubprofile.png" alt="Sign In Page">
+
 After logging in, users are taken to your profile page, which presents a form on the left side where they can complete and/or update their personal information:
 * Profile Image: submit a link on the internet to the image the user wants as their profile image
 * Interests: type in interests or pull interests from the drop down list. 
 * Majors: type in majors or pull majors from the drop down list.
 
+<img src="final_recommended.png" alt="Sign In Page">
+
 Once a user has interests and/or majors associated with their profile, they can then view the recommended clubs tab in their profile page (located to the right of the page). The recommended clubs tab recommends you clubs based on your inputted interests and majors. 
 
 By clicking on a club, users are brought to the club page where they can join, favorite, and find more information about the club. Joined and favorited clubs will be listed on a user’s profile.
+
+<img src="final_clubsjoined.png" alt="Sign In Page">
 
 Upon joining a club, users can view their joined club’s announcements on their profile. Otherwise, if they want to see global announcements, they can access the Announcements Board on the navbar.
 
@@ -67,11 +75,15 @@ If users want to discover more active clubs, they can view all announcements fro
 
 ### Club Explorer page
 
+<img src="final_clubexplorer.png" alt="Sign In Page">
+
 The Club Explorer page displays all current clubs at UH Manoa. Users can search for a specific club using the search bar or select a category. Users can select and combine multiple categories. For example, if a user wants to view clubs that have both “art” and “technology” tags at UH Manoa, they can click “art” and “technology” on the menu. This is different from the recommended clubs on the profile page in that the results are amalgamated (i.e. the profile page shows all clubs with “art” or “technology” while the club explorer shows only clubs with both “art” and “technology”).
+
+<img src="final_clubexplorer2.png" alt="Sign In Page">
 
 ### Club page(s)
 
-<img src="doc/Screenshot (6).png" alt="Club Profile Page">
+<img src="doc/final_joined.png" alt="Club Profile Page">
 
 The Club Page contains information such as the leader’s name, website (if any), club profile image, and its associated interests. It also contains a join button and a favorite button under the name. After joining and/or favoriting the club, the button automatically transforms to “leave” and “unfavorite” should the user decide that they no longer want to be part of the club.
 
@@ -79,9 +91,13 @@ On the right of the page contains the club’s description (if provided), recent
 
 ### Random Club
 
+<img src="doc/final_random.png" alt="Club Profile Page">
+
 Random Club on the navbar takes you to the profile of a random club at UH Manoa, regardless of your stated interest/smajor.
 
 ### Suggested Clubs
+
+<img src="doc/final_suggested.png" alt="Club Profile Page">
 
 Suggested Club takes you to the profile of a random club at UH Manoa that is related to your interests/major.
 
@@ -91,7 +107,7 @@ Admins user accounts are accounts who are leaders of a club. Admins can edit the
 
 ## [Add Announcement](https://hub-for-clubs.meteorapp.com/#/addannouncement)
 
-<img src="doc/add-announcement.png" alt="">
+<img src="doc/file_makeanannouncement.png" alt="">
 
 Admin accounts can add announcements on their club page.
 
