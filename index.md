@@ -31,10 +31,11 @@ The landing page is presented to users when they visit the top-level URL to the 
 ### Navbar
 
 Users that are not logged in are presented with a navbar, containing links to the following pages:
-* [Home]
-* [Club Explorer]
+* [Home](https://hub-for-clubs.meteorapp.com/#/)
+* [Club Explorer](https://hub-for-clubs.meteorapp.com/#/clubexplorer)
 * [Random Club]
-* [Sign up/Sign in]
+* [Sign up](https://hub-for-clubs.meteorapp.com/#/signup)
+* [Sign in](https://hub-for-clubs.meteorapp.com/#/signin)
 
 ### Sign in
 
@@ -107,7 +108,7 @@ Admins user accounts are accounts who are leaders of a club. Admins can edit the
 
 ## [Add Announcement](https://hub-for-clubs.meteorapp.com/#/addannouncement)
 
-<img src="doc/file_makeanannouncement.png" alt="">
+<img src="doc/final_makeanannouncement.png" alt="">
 
 Admin accounts can add announcements on their club page.
 
